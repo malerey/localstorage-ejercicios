@@ -5,12 +5,12 @@
 1. Crea tres objetos `usuario1`, `usuario2`, `usuario3` que tengan las propiedades `nombreUsuario` y `contrasenia` como strings. 
 2. Definí una función `saludar` que reciba como parámetro un objeto y que modifique el HTML de tu página para que aparezca un h1 que diga "Hola, {nombreUsuario}".
 3. Probá tu función con los tres objetos definidos antes.  
-4. Definí una función `modificarNombreDeUsuario` que reciba dos parametros: un objeto `usuario` y un string `nuevoNombre`. La función debe retornar el objeto con la propiedad `nombreUsuario` con el valor de `nuevoNombre`. 
+4. Definí una función `modificarNombreDeUsuario` que reciba dos parametros: un objeto `usuario` y un string `nuevoNombre`. La función debe retornar el objeto con la propiedad `nombreUsuario` modificada para tener el valor de `nuevoNombre`. 
 5. Probá tu función con los tres objetos definidos antes. 
-6. Definí una función `modificarContrasenia` que reciba dos parametros: un objeto `usuario` y un string `nuevaContrasenia`. La función debe retornar el objeto con la propiedad `contrasenia` con el valor de `nuevaContrasenia`. 
+6. Definí una función `modificarContrasenia` que reciba dos parametros: un objeto `usuario` y un string `nuevaContrasenia`. La función debe retornar el objeto con la propiedad `contrasenia` modificada para tener el valor de `nuevaContrasenia`. 
 7. Probá tu función con los tres objetos definidos antes. 
 8. Crea la función `convertirAJSON`. La función debe recibir un objeto `usuario` como parámetro y retornar el objeto convertido a JSON. 
-9. Crea la función `convertirDesdeJSON`. La función debe recibir una cadena JSON `objetoJSON` y retornar un objeto de Javascript. 
+9. Crea la función `convertirDesdeJSON`. La función debe recibir una cadena JSON `objetoJSON` y retornar la cadena convertida a un objeto de Javascript. 
 10. Probá tus funciones con los tres objetos definidos antes. 
 11. Definí la función `guardarEnLocalStorage` que reciba como parámetro **un objeto de Javascript** y un string, y guarde en localStorage la cadena con el string como nombre de la clave (Recordá que antes de guardar un objeto en localStorage hay que convertirlo a JSON: usá la función `convertirAJSON` que declaraste antes)
 12. Definí la función `leerDesdeLocalStorage` que reciba como parámetro un string `clave` y retorne **un objeto de Javascript** con los datos guardados bajo esa clave en localStorage. (Utilizá la función `convertirDesdeJSON`!)
@@ -36,3 +36,4 @@ Una vez completados todos los puntos anteriores, queremos que la sesión del usu
 2. Al saludar al usuario, el título debe consumir la propiedad guardada en `localStorage`. 
 3. Al cerrar sesión, la propiedad `sesionIniciada` debe pasar a ser `false`. 
 4. Para determinar si la sesión está iniciada o no, usar la propiedad `sesionIniciada` desde `localStorage`. 
+5. Si el usuario cambia su nombre o contraseña desde el formulario, los datos en `localStorage` deben actualizarse también. 
