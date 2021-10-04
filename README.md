@@ -25,8 +25,9 @@ Tratá de usar las funciones declaradas en los ejercicios anteriores.
 4. Si los datos ingresados por el usuario en el form coinciden con los guardados en el objeto, la web debe:
     1.  Mostrar como saludo "Hola {nombreUsuario}"
     2.  Ocultar el botón "iniciar sesión"
-    3.  Mostrar dos botones nuevos: `Cambiar mis datos`, `Cerrar sesión`. 
-    4.  Pista: Definí una variable global para guardar si el usuario inició sesión o no, y determinar a partir de ella qué elementos se deben mostrar en la página. 
+    3.  Ocultar el formulario para iniciar sesión
+    4.  Mostrar dos botones nuevos: `Cambiar mis datos`, `Cerrar sesión`. 
+    5.  Pista: Definí una variable global para guardar si el usuario inició sesión o no, y determinar a partir de ella qué elementos se deben mostrar en la página. 
 5. Si el usuario hace click en "cerrar sesión", el titulo debe volver a decir "Hola!" y el botón "Iniciar sesión" debe volver a ser visible. 
 6. Si el usuario hace click en "Cambiar mis datos", se abre un formulario con un campo `usuario` y otro `contraseña`, y un botón para enviar el form. Al enviarse, se deben modificar las propiedades nombreUsuario y contrasenia del objeto `usuario`. 
 
